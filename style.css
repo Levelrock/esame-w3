@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #212529;
+}
+
+#logo{
+    width: 8rem;
+}
+
+#avatar{
+    width: 2.5rem;
+}
+
+.nav_right i{
+    margin-right: 1rem;
+}
+.nav_right span{
+    margin-right: 1rem;
+}
+.dropdown {
+    margin-right: 1rem;
+}
+
+nav{
+    background-color: black !important;
+}
+
+.p_i{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.m_d{
+    margin-right: 2rem;
+}
+
+.m_l{
+    margin-left: 2rem;
+}
+
+.h_c{
+    max-height: 100px;
+}
+
+.carousel-inner{
+    overflow: hidden;
+}
+
+.carousel-inner:hover{
+    overflow: visible;
+}
+
+.tr{
+    transition: all 300ms ease-in-out;
+}
+
+.tr:hover{
+    transform: scale(1.2);
+    transition: all 300ms ease-in-out;
+    z-index: 2;
+}
+
+
+.carousel-control-prev{
+    
+    width: 50px;
+    z-index: 3;
+}
+
+.carousel-control-next{
+    width: 50px;
+    z-index: 3;
+}
+
+.carousel-inner{
+
+    padding-left: 2%;
+    padding-right: 2%;
+}
